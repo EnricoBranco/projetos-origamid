@@ -1,0 +1,114 @@
+body {
+  background: #f7f7f7;
+  font-family: Arial;
+  justify-content: center;
+  row-gap: 60px;
+  margin: 0;
+}
+
+h1,
+p,
+h3 {
+  margin: 0;
+}
+
+/* HEADER */
+
+.cabecalho {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.cabecalho-botoes {
+  margin-top: 60px;
+}
+
+.botao-cabecalho {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  border-radius: 4px;
+  padding: 15px 30px;
+  margin: 5px;
+}
+
+/* CONTEÚDO PRINCIPAL */
+
+.conteudo-principal {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  margin: 60px auto;
+}
+
+.descricao-bicicleta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+  row-gap: 20px;
+  background: #fff;
+  text-align: right;
+  padding: 40px;
+}
+
+.descricao-bicicleta h1 {
+  font-size: 32px;
+}
+
+.paragrafo {
+  font-size: 20px;
+}
+
+.botao-ver-mais {
+  text-decoration: none;
+  background: #ee2211;
+  color: #fff;
+  padding: 15px 30px;
+}
+
+.imagem-bicicleta {
+  max-width: 100%;
+  display: block;
+}
+
+.vantagens-bikcraft {
+  font-size: 64px;
+  color: #c6c6c6;
+  text-align: right;
+  margin: auto 40px;
+}
+
+.detalhes-container {
+  background: #fff;
+  padding: 40px;
+}
+
+.detalhes-item {
+  display: grid;
+  gap: 15px;
+  padding: 20px;
+  grid-template-columns: 24px 1fr;
+}
+
+.imagem {
+  grid-column: 1/2;
+}
+
+.item-titulo {
+  grid-column: 2/3;
+}
+
+.item-paragrafo {
+  grid-column: 2/3;
+}
+
+.footer-paragrafo {
+  text-align: center;
+}
+
+.rodape {
+  background: #fff;
+  padding: 40px 0;
+}
