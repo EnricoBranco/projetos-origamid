@@ -38,11 +38,12 @@ h3 {
 .conteudo-principal {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
+  max-width: 1050px;
   margin: 60px auto;
 }
 
 .descricao-bicicleta {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,6 +56,15 @@ h3 {
 
 .descricao-bicicleta h1 {
   font-size: 32px;
+}
+
+.linha {
+  position: absolute;
+  background: #ee2211;
+  top: 50px;
+  right: -35px;
+  height: 4px;
+  width: 65px;
 }
 
 .paragrafo {
